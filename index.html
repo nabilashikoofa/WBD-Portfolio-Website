@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nabila Shikoofa's Portfolio Website">
+    <title>Nabila's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" as="style">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Nabila's Page</h1>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tech-stacks">Tech Stacks</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <!-- <li><a href="#contact">Contact</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <main>
+        <div class="container">
+            <section id="home" class="home-section">
+                <div class="home-container">
+                    <img src="assets/profile.webp" alt="Profile" class="profile-photo">
+                    <div class="home-text">
+                        <h1>Hi, it's me Nabila Shikoofa!</h1>
+                        <p>A penultimate Computer Science student with a passion for technology, business, and creativity. I am excited about applying technology to create innovative solutions in business and fintech.</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/nabilashikoofa" rel="noopener" target="_blank">
+                                <img src="assets/linkedin.webp" alt="LinkedIn Logo">
+                            </a>
+                            <a href="mailto:nabilashikoofa@gmail.com">
+                                <img src="assets/email.webp" alt="Email Logo">
+                            </a>
+                            <a href="https://instagram.com/nabilashikoofa" rel="noopener" target="_blank">
+                                <img src="assets/instagram.webp" alt="Instagram Logo">
+                            </a>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tech Stack Section -->
+            <section id="tech-stacks" class="tech-stacks">
+                <h2>Tech Stacks</h2>
+                <div class="tech-grid">
+                    <img src="assets/golang.webp" alt="Golang" loading="lazy">
+                    <img src="assets/java.webp" alt="Java" loading="lazy">
+                    <img src="assets/c.webp" alt="C" loading="lazy">
+                    <img src="assets/cp.webp" alt="C++" loading="lazy">
+                    <img src="assets/cs.webp" alt="C#" loading="lazy">
+                    <img src="assets/html.webp" alt="HTML" loading="lazy">
+                    <img src="assets/css.webp" alt="CSS" loading="lazy">
+                    <img src="assets/javascript.webp" alt="JavaScript" loading="lazy">
+                    <img src="assets/tensorflow.webp" alt="TensorFlow" loading="lazy">
+                    <img src="assets/mysql.webp" alt="MySQL" loading="lazy">
+                    <img src="assets/flet.webp" alt="Flet" loading="lazy">
+                    <img src="assets/flutter.webp" alt="Flutter" loading="lazy"> 
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <img src="assets/belekping.webp"" alt="Project 1">
+                        <h3>Belekping</h3>
+                        <p>An object-oriented programming-based project for a farming game where players manage fields by planting crops and raising animals, represented by cards. It's also features a GUI, save and load. Tech use - Java </p>
+                    </div>
+                    <div class="project-item">
+                        <img src="assets/travel.webp" alt="Project 2">
+                        <h3>Travel Chingu</h3>
+                        <p>A travel planer app that designed to help users organize and plan their trips efficiently. It offers a user-friendly interface to create itineraries, manage budgets, and explore recommended destinations.  Tech use - Flet</p>
+                    </div>
+                    <div class="project-item">
+                        <img src="assets/biometric.webp" alt="Project 3">
+                        <h3>Biometric Identification</h3>
+                        <p>Fingerprint-based biometric identification using pattern matching algorithms such as Knuth-Morris-Path(KMP), Boyer-Moore (BM), and Regular Expressions. Tech use - C#</p>
+                    </div>
+                    <div class="project-item">
+                        <!--<img src="dummy.jpg" alt="Project 4">*/-->
+                        <h3>Word Ladder's Solver</h3>
+                        <p>The Word Ladder game is a puzzle where players have to find a series of words that connect a starting word to an ending word, with each word in between differing by only one letter. This project implements three different search algorithms to solve the Word Ladder game: UCS (Uniform Cost Search), Greedy Best First Search, and A*.  Tech use - Java and Java Swing</p>
+                    </div>
+                    <div class="project-item">
+                        <!--<img src="dummy.jpg" alt="Project 5">*/-->
+                        <h3>Diamonds Game Bot</h3>
+                        <p>Developed a bot for the Diamonds game, a simple game where the objective is for players to collect as many diamonds as possible on the game board. The bot was implemented using a Greedy algorithm with the primary goal of collecting the maximum number of diamonds to win the game.</p>
+                    </div>
+                    <div class="project-item">
+                        <!--<img src="dummy.jpg" alt="Project 6">*/-->
+                        <h3>WikiRace's Solver</h3>
+                        <p>Developed a solver for the Wikirace game, where players aim to navigate from one Wikipedia page to another using only internal links. Implemented search algorithms like Breadth-First Search (BFS) and Iterative Deepening Search (IDS). Tech use - React, Golang and D3 Graph</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section id="gallery" class="gallery">
+                <h2>Organization's Gallery</h2>
+                <div class="gallery-grid">
+                    <img src="assets/1.webp" alt="Gallery 1" loading="lazy">
+                    <img src="assets/2.webp" alt="Gallery 2" loading="lazy">
+                    <img src="assets/3.webp" alt="Gallery 3" loading="lazy">
+                    <img src="assets/4.webp" alt="Gallery 4" loading="lazy">
+                    <img src="assets/5.webp" alt="Gallery 5" loading="lazy">
+                    <img src="assets/6.webp" alt="Gallery 6" loading="lazy">
+                    <img src="assets/7.webp" alt="Gallery 7" loading="lazy">
+                    <img src="assets/8.webp" alt="Gallery 8" loading="lazy">
+                    <img src="assets/9.webp" alt="Gallery 9" loading="lazy">
+                    <img src="assets/10.webp" alt="Gallery 10" loading="lazy">
+                    <img src="assets/11.webp" alt="Gallery 11" loading="lazy">
+                    <img src="assets/12.webp" alt="Gallery 12" loading="lazy">
+                </div>
+            </section>
+
+            <!-- Contact Section 
+            <section id="contact" class="contact">
+                <h2>Contact Me</h2>
+                <p>If you want to get in touch, feel free to reach out via LinkedIn or email.</p>
+            </section>-->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Nabila Shikoofa. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
