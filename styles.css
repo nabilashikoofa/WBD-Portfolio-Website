@@ -192,6 +192,10 @@ section {
         flex-basis: 100%; 
         text-align: center; 
     }
+
+    .social-links a img {
+        margin: 10px;
+    }
 }
 
 /* Profile Photo */
@@ -219,22 +223,22 @@ section {
     font-size: 18px;
 }
 
+/* Social Media Logos */
 .social-links a {
     text-decoration: none; 
 }
 
-/* Social Media Logos */
 .social-links a img {
     height: 30px;
     width: auto;
-    margin: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
     transition: transform 0.3s ease;
 }
 
 .social-links a img:hover {
     transform: scale(1.1);
 }
-
 
 .tech-stacks,.projects h2 {
     text-align: center; 
@@ -243,7 +247,7 @@ section {
 
 /* Tech Stack Section */
 .tech-stacks {
-    padding: 50px 20%;
+    padding: 50px 25%;
     background-color: var(--secondary-color);
 }
 
@@ -331,7 +335,7 @@ section {
 }
 
 .gallery-grid img:hover {
-    transform: scale(2);
+    transform: scale(1.75);
     transform-origin: center; 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
@@ -362,3 +366,6 @@ section {
 .contact h2 {
     color: var(--primary-color);
 }
+
+
+
